@@ -1,7 +1,8 @@
 # RISC-V-Pipelined-VHDL
 
 <img src="diagram.png" width=50% height=50%>
-This project contains a Five-Stage Pipelined RISC-V processor that can run all the RV32I ISA instructions beside ECALL, CSSR, and FENCE. The soft processor core was made for my undergraduate final project. Related works: Maestro soft processor core, the Computer Organization and Design textbook by Patterson and Hennessy, and my previous Single-Cycle RV32I soft processor core.
+
+This project contains a Five-Stage Pipelined RISC-V processor that can run all the RV32I ISA instructions beside ECALL, CSSR, and FENCE. The soft processor core was made for my undergraduate final project. Related works: [Maestro soft processor core](https://github.com/Artoriuz/maestro), the Computer Organization and Design textbook by Patterson and Hennessy, and [my previous Single-Cycle RV32I soft processor core](https://github.com/aaronelsonp/Risc-V-Single-Cycle-VHDL).
 
 We propose a RISC-V soft processor with a five-stage pipelining for educational purposes. We implemented this processor core in VHDL Hardware Description Language and verified the logic using ModelSim. Then, we evaluated the resource usage, critical path, and maximum frequency compared to our previous single-cycle design and other soft processors. The processor core could run the test program when we run it on an EP4CE6E22C FPGA board.
 
